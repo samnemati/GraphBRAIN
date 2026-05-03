@@ -116,9 +116,3 @@ pip install -r requirements.txt
 
 Data paths in `config.py` are absolute and point at the local ABC dataset
 directory; adjust `DATA_ROOT` if running elsewhere.
-
-## Full Project Context
-
-See [CLAUDE.md](CLAUDE.md) for the complete project briefing — dataset
-structure, design decisions, prior PSA-classification work, and literature
-review (RegGNN, BrainGNN, the 2025 critical paper, etc.).
