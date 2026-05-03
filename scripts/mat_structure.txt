@@ -1,0 +1,136 @@
+# .mat structure inspection — ABC1001.mat
+
+## Top-level keys
+  NativeRestAve
+  RestAve
+  T1
+  VBM_volume_CSF
+  VBM_volume_GM
+  VBM_volume_Total
+  VBM_volume_WM
+  VBM_volume_WMH
+  alf
+  alf_AICHA
+  alf_aal
+  alf_aalcat
+  alf_bro
+  alf_cat
+  alf_fox
+  alf_jhu
+  alf_yourcustomatlas
+  basilC1
+  basilC2
+  basilNative
+  basilStd
+  dti_AICHA
+  dti_jhu
+  dtifc_AICHA
+  dtifc_jhu
+  dtimn_AICHA
+  dtimn_jhu
+  dtimx_AICHA
+  dtimx_jhu
+  fMRIavebPASS
+  fa
+  fa_AICHA
+  fa_aal
+  fa_aalcat
+  fa_bro
+  fa_cat
+  fa_fox
+  fa_jhu
+  fa_yourcustomatlas
+  fmri
+  fmri_AICHA
+  fmri_aal
+  fmri_aalcat
+  fmri_bro
+  fmri_cat
+  fmri_fox
+  fmri_jhu
+  fmri_yourcustomatlas
+  i3mT1
+  i3mT1_AICHA
+  i3mT1_aal
+  i3mT1_aalcat
+  i3mT1_bro
+  i3mT1_cat
+  i3mT1_fox
+  i3mT1_jhu
+  i3mT1_yourcustomatlas
+  md
+  md_AICHA
+  md_aal
+  md_aalcat
+  md_bro
+  md_cat
+  md_fox
+  md_jhu
+  md_yourcustomatlas
+  palf
+  palf_AICHA
+  palf_aal
+  palf_aalcat
+  palf_bro
+  palf_cat
+  palf_fox
+  palf_jhu
+  palf_yourcustomatlas
+  rest_AICHA
+  rest_aal
+  rest_aalcat
+  rest_bro
+  rest_cat
+  rest_fox
+  rest_jhu
+  rest_yourcustomatlas
+  vbm_gm
+  vbm_gm_AICHA
+  vbm_gm_aal
+  vbm_gm_aalcat
+  vbm_gm_bro
+  vbm_gm_cat
+  vbm_gm_fox
+  vbm_gm_jhu
+  vbm_gm_yourcustomatlas
+  vbm_wm
+  vbm_wm_AICHA
+  vbm_wm_aal
+  vbm_wm_aalcat
+  vbm_wm_bro
+  vbm_wm_cat
+  vbm_wm_fox
+  vbm_wm_jhu
+  vbm_wm_yourcustomatlas
+
+## Keys of interest
+### rest_jhu
+  type=mat_struct  fields=['label', 'r', 'p']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .r: type=ndarray  shape=(189, 189)  dtype=float64
+    .p: type=ndarray  shape=(189, 189)  dtype=float64
+
+### fa_jhu
+  type=mat_struct  fields=['label', 'mean']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .mean: type=ndarray  shape=(189,)  dtype=float64
+
+### md_jhu
+  type=mat_struct  fields=['label', 'mean']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .mean: type=ndarray  shape=(189,)  dtype=float64
+
+### vbm_gm_jhu
+  type=mat_struct  fields=['label', 'mean']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .mean: type=ndarray  shape=(189,)  dtype=float64
+
+### vbm_wm_jhu
+  type=mat_struct  fields=['label', 'mean']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .mean: type=ndarray  shape=(189,)  dtype=float64
+
+### palf_jhu
+  type=mat_struct  fields=['label', 'mean']
+    .label: type=ndarray  shape=(189,)  dtype=<U117
+    .mean: type=ndarray  shape=(189,)  dtype=float64
