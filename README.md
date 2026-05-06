@@ -92,8 +92,8 @@ GraphMind/
 
 | Date | Sprint | Status |
 |---|---|---|
-| 2026-04-30 | First end-to-end run — wire up the full pipeline, ridge baseline + GCN CV on MoCA + PTT, seeded reproducibility, dataset caching | Done |
-| 2026-05-02 | PTT GCN tuning — switch `GCNConv` → `GraphConv` for signed edge weights (Phase 1); 12-config `lr × dropout × num_layers` sweep with early stopping (Phase 2) | In progress |
+| 2026-04-30 | First end-to-end run: wire up the full pipeline, ridge baseline + GCN CV on MoCA + PTT, seeded reproducibility, dataset caching | Done |
+| 2026-05-02 | PTT GCN tuning: switch `GCNConv` to `GraphConv` for signed edge weights (Phase 1); 12-config `lr × dropout × num_layers` sweep with early stopping (Phase 2) | In progress |
 
 Planned next: GAT + interpretability sprint (attention weights, GNNExplainer
 on the better-performing target), then multi-task / WIN_Threshold extension.
